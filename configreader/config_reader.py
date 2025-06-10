@@ -34,7 +34,6 @@ class _ConfigReader:
     기본 섹션은 'DEFAULT'입니다.
     """
 
-
     def __init__(self, config_file_name: str = 'config.ini', caller_path: Path = None) -> None:
         self.config = configparser.ConfigParser()
         # config_path = Path(__file__).resolve().parent.parent / f"credentials/{config_file_name}"
