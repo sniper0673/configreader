@@ -1,0 +1,20 @@
+[project]
+name = "myconfigreader"
+version = "0.1.0"
+description = "My stock data provider package"
+authors = [
+  { name = "Hyuntamansei" }
+]
+requires-python = ">=3.8"
+dependencies = [
+    # "pandas>=1.5.0",
+    # "numpy>=1.23.0",
+]
+
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["mystockdataprovider"]
+package-dir = {"" = "src"}
