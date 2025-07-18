@@ -1,9 +1,9 @@
 [project]
-name = "myconfigreader"
+name = "configreaderbysinper0673"
 version = "0.1.0"
 description = "My config reader package"
 authors = [
-  { name = "Hyuntamansei" }
+  { name = "sniper0673" }
 ]
 requires-python = ">=3.8"
 dependencies = [
