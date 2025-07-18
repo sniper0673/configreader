@@ -1,5 +1,5 @@
 [project]
-name = "configreaderbysinper0673"
+name = "apsniper0673_configreader"
 version = "0.1.0"
 description = "My config reader package"
 authors = [
