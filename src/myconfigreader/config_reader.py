@@ -1,7 +1,8 @@
 # ConfigReader 클래스 정의는 동일하게 유지
 import configparser
+from configparser import SectionProxy
 from pathlib import Path
-from typing import List, Dict
+from typing import List
 from pathlib import Path
 import inspect
 
@@ -54,7 +55,7 @@ class _ConfigReader:
         self._current_section_name = section_name # 현재 섹션 이름 업데이트
         self.section = self.config[section_name]
 
-    def get_section(self, section_name: str = None) -> Dict[str, str]: # 반환 타입을 dict로 변경
+    def get_section(self, section_name: str = None) -> SectionProxy:
         """
         섹션을 반환합니다.
         지정된 섹션이 없으면 현재 설정된 섹션을 반환합니다.
