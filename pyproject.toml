@@ -1,6 +1,6 @@
 [project]
 name = "apsniper0673_configreader"
-version = "0.1.1"
+version = "0.1.2"
 description = "My config reader package"
 authors = [
   { name = "sniper0673" }
