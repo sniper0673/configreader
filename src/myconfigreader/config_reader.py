@@ -18,7 +18,8 @@ def get_config_path(config_file_name: str, caller_path=None) -> Path:
     if caller_path is None:
         current = Path.cwd()  # 현재 작업 디렉토리
     else:    
-        current = caller_path
+        # current = caller_path
+        current = Path.cwd()  # 현재 작업 디렉토리
 
     while current != current.parent:  # 루트까지 도달하지 않은 동안
         cred_path = current / "credentials"
